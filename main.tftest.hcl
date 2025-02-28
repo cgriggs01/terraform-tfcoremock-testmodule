@@ -14,7 +14,7 @@ run "valid" {
 	}
 }
 
-run "invalide" {
+run "invalid" {
 	variables {
 		input = 2
 	}
@@ -64,7 +64,7 @@ run "output_validation" {
   }
 }
 
-run "input_validation" {
+run "input_validation2" {
   variables {
     input = 4
   }
@@ -75,7 +75,7 @@ run "input_validation" {
   }
 }
 
-run "output_validation" {
+run "output_validation2" {
   variables {
     input = 4
   }
@@ -86,4 +86,3 @@ run "output_validation" {
   }
 }
 
-This test file contains four test scenarios. The first scenario tests that the validation rule on the `input` variable correctly fails when an odd number is provided. The second scenario tests that the `doubled` output correctly doubles the `input` variable when an even number is provided. The third and fourth scenarios repeat these tests with a different even number.
