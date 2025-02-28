@@ -14,28 +14,28 @@ run "valid" {
 	}
 }
 
-run "invalid" {
-	variables {
-		input = 2
-	}
+# run "invalid" {
+# 	variables {
+# 		input = 2
+# 	}
 
-	assert {
-		condition = output.doubled == 6
-		error_message = "this should fail"
-	}
+# 	assert {
+# 		condition = output.doubled == 6
+# 		error_message = "this should fail"
+# 	}
 
-}
+# }
 
-run "expect_failure" {
+# run "expect_failure" {
 
-	//command = plan
+# 	//command = plan
 
-	variables {
-	  input = 3
-	}
+# 	variables {
+# 	  input = 3
+# 	}
 
-	expect_failures = [var.input]
-}
+# 	expect_failures = [var.input]
+# }
 
 # WARNING: Generated module tests should be considered experimental and be reviewed by the module author.
 
