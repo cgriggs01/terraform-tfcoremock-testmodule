@@ -1,4 +1,4 @@
-run "valid" {
+run "helloworld" {
 	variables {
 		input = 2
 	}
