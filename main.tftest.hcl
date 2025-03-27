@@ -15,17 +15,17 @@ run "helloworld" {
 	}
 }
 
-# run "invalid" {
-# 	variables {
-# 		input = 2
-# 	}
+ run "invalid" {
+ 	variables {
+ 		input = 2
+ 	}
 
-# 	assert {
-# 		condition = output.doubled == 6
-# 		error_message = "this should fail"
-# 	}
+ 	assert {
+ 		condition = output.doubled == 6
+ 		error_message = "this should fail"
+ 	}
 
-# }
+ }
 
 # run "expect_failure" {
 
