@@ -17,7 +17,7 @@ run "helloworld" {
 
  run "invalid" {
  	variables {
- 		input = 3
+ 		input = 2
  	}
 
  	assert {
