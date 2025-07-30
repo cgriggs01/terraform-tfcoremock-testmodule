@@ -17,11 +17,11 @@ run "helloworld" {
 
  run "invalid" {
  	variables {
- 		input = 3
+ 		input = 2
  	}
 
  	assert {
- 		condition = output.doubled == 6
+ 		condition = output.doubled == 4
  		error_message = "this should fail"
  	}
 
