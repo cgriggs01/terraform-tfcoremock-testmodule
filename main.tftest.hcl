@@ -1,7 +1,7 @@
 
 run "helloworld" {
 	variables {
-		input = 2
+		input = 3
 	}
 
 	assert {
